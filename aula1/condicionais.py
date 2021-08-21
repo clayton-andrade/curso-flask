@@ -13,3 +13,7 @@ else:
 
 
 print("Ola estou online" if online else "Ola estou offline")
+
+resp = True
+msg = "Verdadeiro" if resp else "Falso"
+print(msg)

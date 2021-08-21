@@ -8,6 +8,8 @@ try:
     b.upper()
     print(b // a)
 except AttributeError as e:
-    print("Nao posso tranformar n em maiusculo", str(e))
+    print("Nao posso tranformar n em maiusculo", e)
 except ZeroDivisionError as e:
     print("Deu Erro tenta de novo", str(e))
+finally:
+    print("Bloco final!!!")

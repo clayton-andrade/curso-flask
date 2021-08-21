@@ -1,0 +1,7 @@
+Criar e ativar ambiente virtual do Python (dentro da pasta do projeto):
+python3.8 -m venv .venv
+source .venv/bin/activate
+
+starship rust (feature para terminal)
+
+

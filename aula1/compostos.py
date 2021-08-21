@@ -9,6 +9,7 @@ mistura = [1, "bruno", 4.5, True, cores, numeros, [1, 2, 3]]
 cores.append("amArelo")
 cores.insert(1, "branco")
 cores.remove("azul")
+cores += ["azul"]
 print(cores)
 
 # Tuplas
@@ -65,3 +66,6 @@ for chave in pessoa:
 
 for chave, valor in pessoa.items():
     print(chave, ":", valor)
+
+for index, cor in enumerate(cores):
+    print(f"{index}: {cor}")
