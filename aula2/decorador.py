@@ -1,4 +1,3 @@
-
 def header(function):
     def decorator(*args, **kwargs):
         print("### Bem vindo ao meu site ###\n")
@@ -12,12 +11,10 @@ def footer(function):
         return function(*args, **kwargs)
     return decorator
 
-
 @footer
 @header
 def produto(nome):
     print(f"Produto: {nome} - R$ 2k")
-
 
 @footer
 @header
