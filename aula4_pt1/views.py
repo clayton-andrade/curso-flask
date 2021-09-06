@@ -7,7 +7,8 @@ def init_app(app: Flask):
 
     @app.route("/")
     def index():
-        print(request.args)
+        name = request.args.get("name");
+        print(name)
         return "Esta rodando aguarde"
 
     @app.route("/contato")
